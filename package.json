@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node node_modules/@angular/cli/bin/ng serve",
     "build": "ng build",
     "build-pre": "ng build configuration=pre",
     "watch": "ng build --watch --configuration development",
@@ -19,6 +19,8 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/router": "^17.2.0",
+    "@ng-icons/bootstrap-icons": "^30.2.0",
+    "@ng-icons/core": "^26.5.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
