@@ -1,0 +1,14 @@
+.title-icon{
+    display: flex;
+    justify-content: space-between;
+    .principal-img{
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid;
+    }
+    .spacer{
+        width: 1rem;
+    }
+}
