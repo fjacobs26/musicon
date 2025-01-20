@@ -1,3 +1,12 @@
 <app-title-icon></app-title-icon>
 <app-filter></app-filter>
+<!--opcion 1: la mas comercial-->
+<ng-container *ngFor="let item of cardsData">
+    {{item | json}}
+</ng-container>
+<!--opcion 2: la mas moderna-->
+@for (item of cardsData; track $index) {
+    {{item}}
+}
+<app-song-card></app-song-card>
 <p>home works!</p>
