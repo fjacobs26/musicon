@@ -9,7 +9,7 @@ import { SongCardComponent } from './components/song-card/song-card.component';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [TitleIconComponent, FilterComponent, SongCardComponent, NgFor, JsonPipe],
+  imports: [TitleIconComponent, FilterComponent, SongCardComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
